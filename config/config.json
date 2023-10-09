@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "Sam",
-    "password": "1234@SAMShello",
-    "database": "sams_database",
-    "host": "localhost:3306",
+    "username": "root",
+    "password": "jejeprograms",
+    "database": "somaiya_awards",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "Sam",
-    "password": "1234@SAMShello",
-    "database": "sams_database",
-    "host": "localhost:3306",
+    "password": "q6Wd6$3m2",
+    "database": "database_production",
+    "host": "localhost",
     "dialect": "mysql"
   }
 }
