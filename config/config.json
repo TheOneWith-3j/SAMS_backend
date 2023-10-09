@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "Sam",
-    "password": "Yc!299vf8",
-    "database": "sams_database",
+    "username": "Sams",
+    "password": "q6Wd6$3m2",
+    "database": "database_production",
     "host": "localhost:3306",
     "dialect": "mysql"
   },
   "test": {
-    "username": "Sam",
-    "password": "Yc!299vf8",
-    "database": "sams_database",
+    "username": "Sams",
+    "password": "q6Wd6$3m2",
+    "database": "database_production",
     "host": "localhost:3306",
     "dialect": "mysql"
   },
   "production": {
-    "username": "Sam",
-    "password": "Yc!299vf8",
-    "database": "sams_database",
+    "username": "Sams",
+    "password": "q6Wd6$3m2",
+    "database": "database_production",
     "host": "localhost:3306",
     "dialect": "mysql"
   }
