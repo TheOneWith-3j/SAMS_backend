@@ -15,7 +15,7 @@ const cors = require('cors');
 const db = require('./models');
 const { serverLogger } = require('./middleware/logger');
 const bcrypt = require('bcrypt')
-const { User } = require("./models");
+// const { User } = require("./models");
 
 const numCPUs = os.cpus().length;
 
@@ -51,13 +51,13 @@ else {
   app.use('/research-admin/data', researchRoutes);
   app.use(errorHandler);
 
-  app.get('/', async(req,res)=>{
-    console.log("hello user");
+  // app.get('/', async(req,res)=>{
+  //   console.log("hello user");
     
     
-    const user = await User.findOne({ where: { email_id: "sas.tech@somaiya.edu" } })
-    res.send("Hello User");
-  })
+  //   // const user = await User.findOne({ where: { email_id: "sas.tech@somaiya.edu" } })
+  //   res.send("Hello User");
+  // })
 
   // server listen and database configuration
   db.sequelize.sync().then(async (req) => {
