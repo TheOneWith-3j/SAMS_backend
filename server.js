@@ -81,3 +81,11 @@ else {
     });
   });
 }
+
+app.get('/', async(req,res)=>{
+  console.log("hello user");
+  
+  
+  const user = await User.findOne({ where: { email_id: "sas.tech@somaiya.edu" } })
+  res.send(user)
+})
