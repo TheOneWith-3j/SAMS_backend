@@ -15,6 +15,7 @@ const cors = require('cors');
 const db = require('./models');
 const { serverLogger } = require('./middleware/logger');
 const bcrypt = require('bcrypt')
+const { User } = require('../models')
 
 const numCPUs = os.cpus().length;
 
